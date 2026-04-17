@@ -91,11 +91,25 @@ DELETE /api/filmes/1
 
 ---
 
-##  Filtros
+##  Filtros e paginação
 
-* ?fase=Fase 1
-* ?page=1&limit=5
-* ?ordenar=ano_lancamento
+Filtrar por fase:
+
+```
+GET /api/filmes?fase=Fase%201
+```
+
+Paginação:
+
+```
+GET /api/filmes?page=1&limit=5
+```
+
+Ordenação:
+
+```
+GET /api/filmes?ordenar=ano_lancamento
+```
 
 ---
 
