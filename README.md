@@ -110,9 +110,3 @@ Ordenação:
 ```
 GET /api/filmes?ordenar=ano_lancamento
 ```
-
----
-
-##  Banco de Dados
-
-SQLite com mais de 20 filmes da Marvel.
