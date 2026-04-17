@@ -17,8 +17,6 @@ API REST desenvolvida em Node.js com SQLite para gerenciamento de filmes da Marv
 
 ##  Instalação
 
-## ⚙️ Instalação e execução
-
 ### 1. Clonar o repositório
 
 ```bash
