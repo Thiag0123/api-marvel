@@ -44,27 +44,50 @@ http://localhost:3000
 
 ---
 
-##  Rotas
+##  Exemplos de rotas
 
 ###  Criar filme
 
 POST /api/filmes
 
+```json
+{
+  "titulo": "Homem de Ferro",
+  "personagem_principal": "Tony Stark",
+  "ano_lancamento": 2008,
+  "fase": "Fase 1"
+}
+```
+
+---
+
 ###  Listar filmes
 
 GET /api/filmes
 
+---
+
 ###  Buscar por ID
 
-GET /api/filmes/:id
+GET /api/filmes/1
 
-###  Atualizar
+---
 
-PUT /api/filmes/:id
+###  Atualizar filme
 
-###  Deletar
+PUT /api/filmes/1
 
-DELETE /api/filmes/:id
+```json
+{
+  "titulo": "Homem de Ferro Atualizado"
+}
+```
+
+---
+
+###  Deletar filme
+
+DELETE /api/filmes/1
 
 ---
 
