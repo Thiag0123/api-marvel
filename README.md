@@ -17,11 +17,31 @@ API REST desenvolvida em Node.js com SQLite para gerenciamento de filmes da Marv
 
 ##  Instalação
 
+## ⚙️ Instalação e execução
+
+### 1. Clonar o repositório
+
 ```bash
-git clone <seu-repo>
+git clone https://github.com/Thiag0123/api-marvel.git
 cd api-marvel
+```
+
+### 2. Instalar dependências
+
+```bash
 npm install
+```
+
+### 3. Rodar o servidor
+
+```bash
 npm run dev
+```
+
+### 4. Acessar API
+
+```
+http://localhost:3000
 ```
 
 ---
